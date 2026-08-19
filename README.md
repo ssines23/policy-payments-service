@@ -4,7 +4,8 @@ Exposes lookups for annuity/insurance policies.
 
 ## Endpoints
 
-- `GET /policies/{policyId}` — returns policy details.
+- `GET /policies/{policyId}` — returns policy details, balance, and payment history.
+- `POST /policies/{policyId}/payments` — records a payment against a policy.
 
 ## Running locally
 
